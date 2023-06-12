@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-MiniAdmin.Service-08a45d81-c1c4-4213-a355-586c409f8494</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MiniAdmin.Control.Executor\MiniAdmin.Control.Executor.csproj" />
+    <ProjectReference Include="..\MiniAdmin.Shared\MiniAdmin.Shared.csproj" />
+  </ItemGroup>
+</Project>

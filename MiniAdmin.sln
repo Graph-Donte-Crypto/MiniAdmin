@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniAdmin.Desktop", "MiniAdmin.Desktop\MiniAdmin.Desktop.csproj", "{47C7D87E-D1DE-4302-83B7-7BB659623006}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniAdmin.Service", "MiniAdmin.Service\MiniAdmin.Service.csproj", "{00930799-042B-4990-A6DD-0274FB8F5C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniAdmin.Control.DTO", "MiniAdmin.Control.DTO\MiniAdmin.Control.DTO.csproj", "{79C64220-7B87-4D48-82AF-8948EBC841FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniAdmin.Shared", "MiniAdmin.Shared\MiniAdmin.Shared.csproj", "{1359A8BE-685D-4150-B7FD-9174BB4FBD1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniAdmin.Control.Supervisor", "MiniAdmin.Control.Supervisor\MiniAdmin.Control.Supervisor.csproj", "{B79DAB84-C026-4CE4-A371-CE73FD369F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniAdmin.Control.Executor", "MiniAdmin.Control.Executor\MiniAdmin.Control.Executor.csproj", "{40877B89-3EFD-47E5-842A-E0C250368F6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47C7D87E-D1DE-4302-83B7-7BB659623006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47C7D87E-D1DE-4302-83B7-7BB659623006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47C7D87E-D1DE-4302-83B7-7BB659623006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47C7D87E-D1DE-4302-83B7-7BB659623006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00930799-042B-4990-A6DD-0274FB8F5C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00930799-042B-4990-A6DD-0274FB8F5C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00930799-042B-4990-A6DD-0274FB8F5C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00930799-042B-4990-A6DD-0274FB8F5C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C64220-7B87-4D48-82AF-8948EBC841FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C64220-7B87-4D48-82AF-8948EBC841FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C64220-7B87-4D48-82AF-8948EBC841FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C64220-7B87-4D48-82AF-8948EBC841FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1359A8BE-685D-4150-B7FD-9174BB4FBD1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1359A8BE-685D-4150-B7FD-9174BB4FBD1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1359A8BE-685D-4150-B7FD-9174BB4FBD1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1359A8BE-685D-4150-B7FD-9174BB4FBD1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79DAB84-C026-4CE4-A371-CE73FD369F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DAB84-C026-4CE4-A371-CE73FD369F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79DAB84-C026-4CE4-A371-CE73FD369F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79DAB84-C026-4CE4-A371-CE73FD369F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40877B89-3EFD-47E5-842A-E0C250368F6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40877B89-3EFD-47E5-842A-E0C250368F6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40877B89-3EFD-47E5-842A-E0C250368F6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40877B89-3EFD-47E5-842A-E0C250368F6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9D3A88F-4ED7-42C8-BC06-06AEA3ED85D5}
+	EndGlobalSection
+EndGlobal
